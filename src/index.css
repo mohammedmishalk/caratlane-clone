@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Base styles for the group */
+.group {
+  position: relative; /* Important for positioning absolute elements */
+}
+
+/* Hover effect styles */
+.group:hover .bg-blue-600 {
+  width: 50px; /* Adjust as needed */
+  transition: all 0.3s; /* Add transition for smooth effect */
+}
+
+.group:hover .bg-red-400 {
+  width: 50%; /* Adjust as needed */
+  transition: all 0.3s; /* Add transition for smooth effect */
+}
